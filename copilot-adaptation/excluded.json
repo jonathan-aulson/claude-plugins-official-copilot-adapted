@@ -1,0 +1,17 @@
+[
+  {
+    "name": "xcode",
+    "displayName": "Xcode",
+    "description": "Work with Xcode projects from Claude Code: build, run, and test schemes, render SwiftUI previews, drive simulators and devices, read build logs and diagnostics, and search Apple developer documentation.",
+    "author": {
+      "name": "Apple Inc."
+    },
+    "category": "development",
+    "source": {
+      "source": "command",
+      "command": "xcrun agent plugin path --plugin-format claude",
+      "mode": "link"
+    },
+    "homepage": "https://developer.apple.com/xcode/"
+  }
+]
